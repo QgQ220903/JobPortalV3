@@ -10,7 +10,7 @@ using JobPortalV3.Server.Models;
 
 namespace JobPortalV3.Server.Controllers
 {
-    [Route("api/[controller][action]")]
+    [Route("api/[controller]/[action]")]
     [ApiController]
     public class SkillsController : ControllerBase
     {
